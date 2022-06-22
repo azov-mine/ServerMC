@@ -1,0 +1,560 @@
+body {
+    background-color: #140e20;
+    font-family: "Rubik";
+    margin: 0px;
+}
+
+
+.photo{
+  margin-top: 100px;
+  margin-left: 210px;
+  width: 1350px;
+  height: 400px;
+  padding: 36px 80px;
+  border-radius: 15px;
+}
+
+.Text{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  margin-top: 280px;
+  margin-left: 450px;
+  color: #ffffff;
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500px;
+  text-shadow: #020202;
+
+}
+
+.Text1 {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  margin-top: 350px;
+  margin-left: 450px;
+  color: #ffffff;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500px;
+  text-shadow: #070707;
+
+}
+
+
+
+
+
+
+
+.buttom {
+  position: absolute;
+  background-color: #1976d2;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 500px;
+  margin-top: 450px;
+}
+
+.buttom:hover {
+  background-color: #8551C9;
+}
+
+.Pravyla{
+  margin-top: 125px;
+}
+
+
+.неон-1{
+  height: 5px;
+  background-color: #8551C9;
+  border: none;
+  margin-top: -657px;
+  
+}
+.неон-2{
+    height: 5px;
+      background-color: #8551C9;
+      border: none;
+      margin-top: 20px;
+      
+}
+.неон-3{
+  height: 5px;
+    background-color: #8551C9;
+    border: none;
+    margin-top: 30px;
+    
+  }
+
+.неон-4{
+  height: 5px;
+    background-color: #8551C9;
+     border: none;
+     margin-top: 2000px;
+     padding: 0px;
+     margin: 0px;
+     
+}
+
+
+
+.nav {
+    height: 50px;
+    width: 100%;
+    position: relative;
+    
+  }
+
+  .nav-title-2{
+    display: inline-block;
+      font-size: 30px;
+      color: rgb(255, 255, 255);
+      padding: 35px 100px 10px 300px;
+      margin-left: 550px;
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding: 35px 10px 10px 300px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 20px;
+    padding-right: 100px;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 43px 10px 13px 30px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  @media (max-width:600px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid rgb(0, 0, 0);
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: rgb(0, 0, 0);
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
+
+
+
+
+
+
+.Правила{
+  color: #fff;
+  margin-left: 800px;
+}
+
+.лінія{
+  background-color: #8551C9;
+  color: #8551C9;
+  width: 800px;
+  margin-left: 525px;
+}
+
+.Правила2{
+  color: #fff;
+  margin-left: 650px;
+  font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+}
+.Підправило{
+  margin-left: 125px;
+  font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+}
+
+.лінія2{
+  width: 200px;
+  margin-left: 800px;
+}
+
+.лінія3{
+  margin: 0;
+    width: 300px;
+    margin-left: 760px;
+}
+
+.лінія4{
+    margin: 0;
+      width: 300px;
+      margin-left: 760px;
+}
+
+.Правила3{
+  color: #fff;
+  margin: 0;
+    margin-left: 820px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+}
+
+.Правила4{
+  color: #fff;
+  margin: 0;
+    margin-left: 810px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+}
+
+Правила
+
+
+.Правило-1 {
+ color: rgb(102, 97, 97);
+ margin-left: 500px;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 500px;
+}
+.Правило-2 {
+ color: rgb(102, 97, 97);
+ margin-left: 500px;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 500px;
+}
+.Правило-3 {
+ color: rgb(102, 97, 97);
+ margin-left: 500px;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 500px;
+}
+.Правило-4 {
+ color: rgb(102, 97, 97);
+ margin-left: 500px;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 500px;
+}
+.Правило-5 {
+ color: rgb(102, 97, 97);
+ margin-left: 500px;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 500px;
+}
+.Правило-6 {
+ color: rgb(102, 97, 97);
+ margin-left: 500px;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 500px;
+}
+.Правило-7 {
+ color: rgb(102, 97, 97);
+ margin-left: 500px;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 500px;
+}
+.Правило-8 {
+ color: rgb(102, 97, 97);
+ margin-left: 500px;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 500px;
+}
+.Правило-9 {
+ color: rgb(102, 97, 97);
+ margin-left: 500px;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 500px;
+}
+
+.Правило-10 {
+  color: rgb(102, 97, 97);
+    margin-left: 500px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+}
+.Правило-11 {
+  color: rgb(102, 97, 97);
+    margin-left: 500px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+}
+.Правило-12 {
+  color: rgb(102, 97, 97);
+    margin-left: 500px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+}
+.Правило-13 {
+  color: rgb(102, 97, 97);
+    margin-left: 500px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+}
+.Правило-14 {
+  color: rgb(102, 97, 97);
+    margin-left: 500px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+}
+.Правило-15 {
+  color: rgb(102, 97, 97);
+    margin-left: 500px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+}
+.Правило-16 {
+  color: rgb(102, 97, 97);
+    margin-left: 500px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+}
+.Правило-17 {
+  color: rgb(102, 97, 97);
+    margin-left: 500px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+}
+.Правило-18 {
+  color: rgb(102, 97, 97);
+    margin-left: 500px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+}
+.Правило-19 {
+  color: rgb(102, 97, 97);
+    margin-left: 500px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+}
+.Правило-20 {
+  color: rgb(102, 97, 97);
+    margin-left: 500px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+}
+.Правило-21 {
+  color: rgb(102, 97, 97);
+    margin-left: 500px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+}
+.Правило-22 {
+  color: rgb(102, 97, 97);
+    margin-left: 500px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+}
+.Правило-23 {
+  color: rgb(102, 97, 97);
+  margin-left: 500px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500px;
+}
+.Правило-24 {
+  color: rgb(102, 97, 97);
+  margin-left: 500px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500px;
+}
+.Правило-25 {
+  color: rgb(102, 97, 97);
+  margin-left: 500px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500px;
+}
+.Правило-26 {
+  color: rgb(102, 97, 97);
+  margin-left: 500px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500px;
+}
+.Правило-27 {
+  color: rgb(102, 97, 97);
+  margin-left: 500px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500px;
+}
+.Правило-28 {
+  color: rgb(102, 97, 97);
+  margin-left: 500px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500px;
+}
+.Правило-29 {
+  color: rgb(102, 97, 97);
+  margin-left: 500px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500px;
+}
+.Правило-30 {
+  color: rgb(102, 97, 97);
+  margin-left: 500px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500px;
+}
+.Правило-31 {
+  color: rgb(102, 97, 97);
+  margin-left: 500px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500px;
+}
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: all 0.8s ease 0s;
+}
+
+.popup:target{
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup:target .popup_content{
+  transform: translate(0px, 0px);
+  opacity: 1;
+}
+
+.popup_body {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px;
+}
+
+.popup_content {
+  background-color: #291c44;
+  color: #fff;
+  max-width: 800px;
+  padding: 40px;
+  height: 400px;
+  border-radius: 6px;
+  position: relative;
+  transition: all 0.8s ease 0s;
+  transform: translate(0px, -100%);
+  opacity: 0;
+}
+
+.popup_close {
+  position: absolute;
+  right: 25px;
+  top: 20px;
+  font-size: 25px;
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+}
+
+.popup_title {
+  font-size: 30px;
+  margin: 0px 0px 1em 0px;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+.popup_text {}
+
+.popup_text1 {
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.popup_text2 {
+  font-size: 20px;
+  margin-top: 40px
+}
+
+.popup_text3 {
+  font-size: 20px;
+  margin-top: 40px
+}
+
+.popup_text4 {
+  font-size: 20px;
+  margin-top: 40px
+}
+
+.popup_text5 {
+  font-size: 20px;
+  margin-top: 40px
+}
+
+.popup_area{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.Attention{
+  color: #fd0404;
+  font-size: 15px;
+  margin-left: 750px;
+}
